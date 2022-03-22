@@ -35,10 +35,10 @@ data "aws_subnet" "slacko-app-subnet-public" {
 resource "aws_key_pair" "slacko-key-ssh" {
 
  key_name = "slacko-ssh-key"
- public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC7fXT+vXy6lrR6a46qDphn6W/Hx8coNtHYwz4Y0tJLjFkTzrd7s2EUH2ANg+nlwDCpZNd92ZcZyT94la8J5AIw6bLyBoj5YaKGxRIylk52zVAKB9EuXWlz
+ public_key = "ssh-rsa AAAAC4NzaC1yc2EAAAADAQABAAABgQC7fXT+vXy6lrR6a46qDphn6W/Hx8coNtHYwz4Y0tJLjFkTzrd7s2EUH2ANg+nlwDCpZNd92ZcZyT94la8J5AIw6bLyBoj5YaKGxRIylk52zVAKB9EuXWlz
 u2hxuo8kSgjQabdSBcnQL+0aQE5s2B+yPP4tYK4pwUuOQFGdW8go6SmQuhBON1t7+2UkpROgbhydcfvC6wsAWUHRvIHFnbhqUi3cX6Bb76j8V6M6sQGz7rGccl8rNTpIVVI0hVXMHGWsSaP6xD67A31gwbCSeLvvPfSHkrZsT9eX/NExDGLC
 obzFgCYElTh4sUc0LfbLdCUhZi32WSlITBi78YCkaDKRbb+xU1wqjKLEYbZb2o3v6m7twriSMGISF7Rm0ddLer3eK2ZNl3lbp9mB1m4krWaS4u5ArvBlB3DPB6hCZCK6kSVH8wW++OXglGpJQ3vFrSTANgWqB/Neb/FLkr9V/Flk
-kI/qZkPD9vY6QF04rLbE58sOX6czChyWcnke09cqwmHTWb9T630= slacko"
+kI/qZkPD9vY6QF04rLbE58sOX6czChyWcnke09cqwmHTWb9T930= slacko"
 
 }
 
