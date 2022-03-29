@@ -2,7 +2,7 @@ variable "usernames" {
   type = list
   default = [
     "neo",
-    "leonardo",
+    "dyego",
   ]
 }
 
