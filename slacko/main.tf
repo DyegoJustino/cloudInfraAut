@@ -35,7 +35,7 @@ resource "aws_instance" "slacko-app" {
             },)
     key_name = aws_key_pair.slacko-sshkey.id
     # bootstrap file
-    user_data = file("${path.module}/files/ec2.sh")
+    user_data = file("${path.module}/ec2.sh")
 
 }
 
@@ -48,7 +48,7 @@ resource "aws_instance" "mongodb" {
       "Name" = format("%s-mongodb", var.app_name)
     },)
     key_name = aws_key_pair.slacko-sshkey.id
-    user_data = file("${path.module}/files/mongodb.sh")
+    user_data = file("${path.module}/mongodb.sh")
 }
 
 resource "aws_security_group" "allow-slacko" {
