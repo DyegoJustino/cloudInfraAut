@@ -7,7 +7,6 @@ variable "subnet_cidr" {
 variable "ssh_key" {
     type = string
 }
-
 variable "app_name" {
     type = string
 }
